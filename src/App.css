@@ -31,7 +31,7 @@ button:focus {
   font-size: 1.5em;
 }
 
-.recipe_buttons {
+.recipe__buttons {
   border: solid 2px #e74c3c;
   background: transparent;
   padding: 0.4rem 0.6rem;
