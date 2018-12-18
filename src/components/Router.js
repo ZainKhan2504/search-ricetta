@@ -8,8 +8,8 @@ import Recipe from "./Recipe";
 const Router = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={App} />
-      <Route path="/recipe" component={Recipe} />
+      <Route exact path="/" component={App} />
+      <Route exact path="/recipe/:id" component={Recipe} />
     </Switch>
   </BrowserRouter>
 );
